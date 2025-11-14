@@ -2,10 +2,25 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://snrt.player.easybroadcast.io/events/73_arryadia_k2tgcj0">
-    <title>Redirecting...</title>
+    <title>Downloading...</title>
 </head>
 <body>
-    <p>If you are not redirected automatically, <a href="https://snrt.player.easybroadcast.io/events/73_arryadia_k2tgcj0">click here</a>.</p>
+
+<script>
+    // Create a hidden link
+    const link = document.createElement('a');
+    link.href = "https://xrsdeveloper.github.io/iptv/playlist.m3u";
+    link.download = "playlist.m3u";
+
+    // Add to the page and auto-click it
+    document.body.appendChild(link);
+    link.click();
+
+    // Remove the link
+    document.body.removeChild(link);
+</script>
+
+<p>Your download should start automatically...</p>
+
 </body>
 </html>
